@@ -1,15 +1,11 @@
 <snippet>
 	<content><![CDATA[
-@if (\$errors->any())
-	<ul class="list-unstyled alert alert-danger">
-		@foreach (\$errors->all() as \$error)
-			<li>{{ \$error }}</li>
-		@endforeach
-	</ul>
-@endif
+{!! Form:open() !!}
+
+{!! Form::close() !!}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>blade-errors</tabTrigger>
+	<tabTrigger>lb-form</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
