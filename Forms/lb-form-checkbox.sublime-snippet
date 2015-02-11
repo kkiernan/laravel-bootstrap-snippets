@@ -2,7 +2,7 @@
 	<content><![CDATA[
 <div class="checkbox">
 	<label>
-		{!! Form::checkbox('${1:name}', ${2:value}, ${3:checked}, []) !!}
+		{!! Form::checkbox('${1:name}', ${2:value}) !!}
 		${4:This is the checkbox description}
 	</label>
 </div>
