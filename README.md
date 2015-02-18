@@ -1,9 +1,7 @@
 # laravel-bootstrap-snippets
 Sublime Text snippets for Laravel 5 + Bootstrap 3
 
-These snippets are meant as an addition to the [bs3-sublime-plugin](https://github.com/JasonMortonNZ/bs3-sublime-plugin) package by Jason Morton for Sublime Text, which I highly reccommend!
-
-Unless you use Laravel and Bootstrap, my snippets here are pretty useless since they combine blade tags and bootstrap classes.
+These snippets are meant sort of as an addition to the [bs3-sublime-plugin](https://github.com/JasonMortonNZ/bs3-sublime-plugin) package by Jason Morton for Sublime Text, which I highly reccommend! These are just my own little snippets I use when working with Bootstrap and Laravel's Blade templating engine.
 
 ## Lists
 Component          | Snippet
