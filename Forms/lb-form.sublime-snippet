@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-{!! Form:open() !!}
+{!! Form::open() !!}
 
 {!! Form::close() !!}
 ]]></content>

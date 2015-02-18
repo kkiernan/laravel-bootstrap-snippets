@@ -1,14 +1,14 @@
 <snippet>
 	<content><![CDATA[
-<div class="checkbox">
+<div class="radio">
 	<label>
-		{!! Form::checkbox('${1:name}', ${2:value}) !!}
-		${4:This is the checkbox description}
+		{!! Form::radio('${1:name}', ${2:value}, ${3:checked}, []) !!}
+		${4:This is the radio description}
 	</label>
 </div>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>lb-form:checkbox</tabTrigger>
+	<tabTrigger>lb-input:radio:params</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
